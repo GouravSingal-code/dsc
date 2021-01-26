@@ -1,0 +1,26 @@
+#hobby{
+  font-weight:bold;
+  font-style:italic;
+  font-size:2em;
+  text-decoration:underline;
+  cursor:pointer;
+  color:#730C3F;
+}
+
+ .type{
+   font-size:2em;
+   cursor:pointer;
+   color:grey;
+   animation: spacing 2s infinite linear;
+ }
+
+
+ @keyframes spacing {
+  from {
+    letter-spacing:normal;
+  }
+
+  to {
+    letter-spacing:30px;
+  }
+ }

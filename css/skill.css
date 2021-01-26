@@ -1,0 +1,24 @@
+#skill{
+  font-weight:bold;
+  font-style:italic;
+  font-size:2em;
+  text-decoration:underline;
+  text-align:center;
+  color:#730C3F;
+}
+
+.type{
+   font-size:1.8em;
+   color:grey;
+}
+
+#star{
+  width:30px;
+  height:30px;
+  /* animation: spacing 1s infinite linear; */
+}
+
+#star:hover{
+  width:50px;
+  height:50px;
+}

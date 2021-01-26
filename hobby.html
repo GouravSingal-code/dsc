@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hobby</title>
+    <link href="./css/style.css" rel="stylesheet" >
+    <link href="./css/hobby.css" rel="stylesheet" >
+  </head>
+
+
+  <body>
+
+    <div class="container">
+
+      <nav class="navbar">
+        <div class="name">
+        </div>
+
+        <div class="title">
+          <h3 style="display:inline-block"><a href="about.html" style="text-decoration:none" class="link">About Me</a></h3>
+          <h3 style="display:inline-block"><a href="hobby.html" class="link">My Hobbies</a></h3>
+          <h3 style="display:inline-block"><a href="skill.html" style="text-decoration:none" class="link">Skills</a></h3>
+        </div>
+      </nav>
+
+
+    <div class="detail">
+
+      <h1 id="hobby">MY HOBBIES</h1>
+      <br/>
+
+     <ul class="myhobby" style="list-style-type: none;">
+     </ul>
+
+     <div style="position:absolute;bottom:0;text-align:center;width:100%;">
+      <label style="color:grey;font-size:1.5em"> Your Hobby </label>
+      &nbsp;
+      &nbsp;
+      <input type="text" id="added_hobby" style="font-size:1em" />
+
+      &nbsp;
+      &nbsp;
+      &nbsp;
+
+
+      <label style="color:grey;font-size:1.5em"> Rating </label>
+      &nbsp;
+      &nbsp;
+      <input type="number" id="added_rating" style="font-size:1em" />
+
+      &nbsp;
+      &nbsp;
+      &nbsp;
+
+      <button onclick="add_hobby()" style="font-size:1em;font-weight:bold;color:#6F2232;">Add</button
+     </div>
+
+    </div>
+
+
+
+    </div>
+
+   <script src="./js/js.js" defer>
+   </script>
+   <script src="./js/hobby.js"  defer>
+   </script>
+
+  </body>
+</html>

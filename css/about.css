@@ -1,0 +1,39 @@
+.pic{
+   text-align:center;
+   float:left;
+   width:40%;
+}
+
+#info{
+   width:40%;
+   padding:10px;
+   float:right;
+   color:grey;
+}
+
+
+#myname{
+  font-weight:bold;
+  font-style:italic;
+  font-size:2em;
+  color:#730C3F;
+  text-decoration:underline;
+}
+
+#picture{
+  border-radius:50%;
+  height:250px;
+  width:250px;
+  margin:10px;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+ from {
+  transform: rotate(0deg);
+ }
+
+ to {
+ transform: rotate(359deg);
+ }
+}
