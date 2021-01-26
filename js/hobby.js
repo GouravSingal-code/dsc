@@ -1,5 +1,6 @@
 var your_hobby = [];
 your_hobby =  JSON.parse(localStorage.getItem("my_hobby"));
+console.log(your_hobby);
 
 
 
