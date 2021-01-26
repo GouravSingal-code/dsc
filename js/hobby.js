@@ -1,13 +1,11 @@
-var your_hobby = [];
-your_hobby =  JSON.parse(localStorage.getItem("my_hobby"));
-console.log(your_hobby);
-
-
+let your_hobby = [];
+your_hobby.push({hobby:"Cricket",rating:2});
+your_hobby.push({hobby:"Piano",rating:4});
+your_hobby.push({hobby:"Sketching",rating:2});
 
 // add Hobbies
 
 function add_in_page(){
- localStorage.setItem("my_hobby", JSON.stringify(your_hobby));
 
  for( let i=0 ; i<your_hobby.length ; i++ ){
    let li= document.createElement('li');

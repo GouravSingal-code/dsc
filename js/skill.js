@@ -1,4 +1,11 @@
-var your_hobby = JSON.parse(localStorage.getItem("my_hobby"));
+let your_hobby = [];
+your_hobby.push({hobby:"Cricket",rating:2});
+your_hobby.push({hobby:"Piano",rating:4});
+your_hobby.push({hobby:"Sketching",rating:2});
+your_hobby.push({hobby:"Swimming",rating:3});
+your_hobby.push({hobby:"BasketBall",rating:4});
+your_hobby.push({hobby:"Football",rating:5});
+
 
 // add hobbies
 for( let i=0 ; i<your_hobby.length ; i++ ){
