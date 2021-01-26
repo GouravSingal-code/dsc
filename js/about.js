@@ -1,5 +1,6 @@
 function add(){
  var your_hobby = JSON.parse(localStorage.getItem("my_hobby"));
+ console.log(your_hobby);
  if( your_hobby == null || your_hobby == "" ){
    let your_hobby = [];
    your_hobby.push({hobby:"Cricket",rating:2});
