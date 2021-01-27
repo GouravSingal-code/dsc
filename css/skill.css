@@ -15,8 +15,19 @@
 #star{
   width:30px;
   height:30px;
-  /* animation: spacing 1s infinite linear; */
+  animation: opacity 2s infinite linear; */
 }
+
+@keyframes opacity {
+ from {
+   opacity:0;
+ }
+
+ to {
+   opacity:1
+ }
+}
+
 
 #star:hover{
   width:50px;
